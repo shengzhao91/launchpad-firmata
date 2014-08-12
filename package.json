@@ -1,0 +1,34 @@
+{
+  "name": "launchpad-firmata",
+  "description": "A fork of the jgautier's firmata library to control a LaunchPad with Firmata",
+  "version": "0.0.1",
+  "author": "Sheng Zhao",
+  "homepage": "http://www.github.com/shengzhao91/launchpad-firmata",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shengzhao91/launchpad-firmata.git"
+  },
+  "main": "lib/firmata",
+  "bin": {
+    "firmata": "./repl.js"
+  },
+  "devDependencies": {
+    "mocha": ">=0.13.x",
+    "should": ">=0.5.x",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-mocha-test": "~0.2.2"
+  },
+  "dependencies": {
+    "serialport": ">=0.7.5",
+    "browser-serialport": "*"    
+  },
+  "optionalDependencies": {
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
